@@ -1,9 +1,0 @@
-version: "3"
-services:
-  challenges:
-    build: .
-    image: qsnctf/base_nginx_php_74
-    ports:
-      - "80:80"
-    environment:
-      - FLAG=qsnctf{flag}
